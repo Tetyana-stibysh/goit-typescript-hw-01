@@ -1,11 +1,11 @@
-type User = {
+type UserType = {
   name: string;
   surname: string;
   email: string;
   password: string;
 };
 
-function createOrUpdateUser(initialValues: Partial<User>) {
+function createOrUpdateUser(initialValues: Partial<UserType>) {
   console.log(initialValues);
   // Оновлення користувача
 }
